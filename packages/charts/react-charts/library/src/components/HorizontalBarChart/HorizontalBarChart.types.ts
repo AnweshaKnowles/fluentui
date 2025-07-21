@@ -193,9 +193,10 @@ export interface HorizontalBarChartStyles {
  * default: show the datapoint.x value
  * fraction: show the fraction of datapoint.x/datapoint.y
  * percentage: show the percentage of (datapoint.x/datapoint.y)%
+ * hidden: do not show any data text
  * {@docCategory HorizontalBarChart}
  */
-export type ChartDataMode = 'default' | 'fraction' | 'percentage';
+export type ChartDataMode = 'default' | 'fraction' | 'percentage' | 'hidden';
 
 /**
  * {@docCategory HorizontalBarChart}
